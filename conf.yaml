@@ -1,1 +1,4 @@
-dir: "/home/cpeterson/i3/wallpaper"
+dir: "/usr/share/backgrounds/"
+fileExtensions:
+  - ".png"
+  - ".jpg"
