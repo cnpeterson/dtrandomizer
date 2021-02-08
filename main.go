@@ -45,7 +45,8 @@ func main() {
 
     f := images[num]
     cmd := exec.Command("/usr/bin/feh", "--bg-fill", f)
-    _, err = cmd.Output()
+    o, err := cmd.Output()
+    log.Println(o, err)
     if err != nil {
         log.Fatal(err)
     }
